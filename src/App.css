@@ -1,38 +1,35 @@
-.App {
-  text-align: center;
+.root {
+  font-family: var(--agnostic-font-family-body);
+  font-size: var(--agnostic-body);
+  color: var(--agnostic-font-color);
+  line-height: 1.5;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+/* -----
+SVG Icons - svgicons.sparkk.fr
+----- */
+
+.svg-icon {
+  width: 1em;
+  height: 1em;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.svg-icon path,
+.svg-icon polygon,
+.svg-icon rect {
+  fill: #4691f6;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.svg-icon circle {
+  stroke: #4691f6;
+  stroke-width: 1;
 }
 
-.App-link {
-  color: #61dafb;
+#save-task-btn {
+  float: right;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+#main-section {
+  width: 50%;
+  margin: 0 auto;
 }
